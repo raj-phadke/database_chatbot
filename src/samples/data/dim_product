@@ -1,0 +1,6 @@
+product_id,product_name,category,price
+1,Laptop,Electronics,999.99
+2,Headphones,Electronics,199.99
+3,Keyboard,Electronics,49.99
+4,Coffee Maker,Home Appliances,79.99
+5,Blender,Home Appliances,59.99
