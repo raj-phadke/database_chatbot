@@ -9,12 +9,12 @@ sample_data = generate_sample_data()
 write_config = WriterConfig(dataframes=sample_data, write_path="")
 
 snowflake_config = SnowflakeConnectionConfig(
-    user="RRPHADKE10",
-    password="Iamlazybatman100296!",
-    account_url="mv38776.us-east4.gcp",  # ✅ Corrected account with region
-    warehouse="COMPUTE_WH",
-    database="RETAIL_DW",
-    db_schema="SALES",
+    user="<your-snowflake-username>",
+    password="<your-snowflake-password>",
+    account_url="<your-snowflake-account>", 
+    warehouse="<your-snowflake-warehouse>",
+    database="<your-snowflake-database>",
+    db_schema="<your-snowflake-schema>",
 )
 
 snowflake_connection = SnowflakeConnection(config=snowflake_config)
