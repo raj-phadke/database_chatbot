@@ -15,32 +15,6 @@ A Python-based chatbot that connects to **Snowflake** and allows users to intera
 
 ---
 
-## 🗂️ Project Structure
-database_chatbot/
-│
-├── src/
-│ ├── configs/
-│ │ ├── snowflake_config.py
-│ │ └── writer_config.py
-│ │
-│ ├── connections/
-│ │ └── snowflake_connection.py
-│ │
-│ ├── writer/
-│ │ ├── base_writer.py
-│ │ ├── local_writer.py
-│ │ └── snowflake_writer.py
-│ │
-│ ├── samples/
-│ │ └── scripts/
-│ │ ├── generate_sample_dw_data.py
-│ │ └── write_sample_data_to_snowflake.py
-│
-└── README.md
-
-
----
-
 ## 🧪 Sample Workflow
 
 ### 1. Generate and Write Sample Data to Snowflake
